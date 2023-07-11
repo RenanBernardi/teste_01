@@ -3,5 +3,15 @@ function aplicardesconto(valor,desconto)
     return valor - desconto
 
 }
+
+    function validanumero(valor)
+
+{
+    return !isNaN(valor)
+
+}
 console.log ('APP funcionando')
-console.log(aplicardescontoteste())
+console.log('aplicardescontoteste()')
+
+module.exports = {aplicardesconto}
+module.exports = {validanumero}
